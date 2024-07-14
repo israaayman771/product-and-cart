@@ -103,6 +103,7 @@ aside p {
   top: 92%;
   transition: 0.4s;
   min-width: 65%;
+  cursor: pointer;
 }
 
 .add-to-cart p {
