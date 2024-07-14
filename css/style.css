@@ -1,0 +1,126 @@
+@media screen and (max-width:1048px) {
+  body {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  aside {
+    width: 100% !important;
+    justify-content: center;
+  }
+}
+
+.item {
+  gap: 1.88rem;
+}
+
+.item-img{
+  position: relative;
+}
+.row {
+  row-gap: 2.5rem !important;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  color: #000;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.5rem;
+  padding-left: 12px;
+}
+
+span {
+  color: #87635A;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.25rem;
+}
+
+h2 {
+  color: #000;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.75rem;
+}
+
+h3 {
+  color: #C73A0F;
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2.25rem;
+}
+
+p {
+  color: #C73A0F;
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2.25rem;
+}
+
+aside{
+  background: #FFF;
+  width: 31.8%;
+  border-radius: 0.75rem;
+  height: 80vh;
+}
+
+.cart-content {
+  border-radius: 0.75rem;
+  padding: 1rem;
+}
+
+aside p {
+  color: #87635A;
+  text-align: center;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.75rem;
+}
+
+.add-to-cart {
+  border-radius: 624.9375rem;
+  border: 1px solid #6B7280;
+  background: #FFF;
+  padding: 0.5625rem 1.70881rem 0.5625rem 1.72938rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.625rem;
+  gap: 0.75rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 92%;
+  transition: 0.4s;
+  min-width: 65%;
+}
+
+.add-to-cart p {
+  color: #000;
+  text-align: center;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.5rem;
+}
+.add-to-cart:hover{
+  background-color: #C73A0F;
+}
+
+.add-to-cart:hover p{
+  color: #FFF;
+}
+.add-to-cart:hover svg path
+{
+  stroke: #FFF;
+}

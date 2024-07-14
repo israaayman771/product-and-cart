@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0 !important;
+    font-family: 'Red Hat Text';
+}
+
+body {
+    display: flex;
+    background: #FCF9F7;
+    margin-top: 6rem !important;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0 !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1225px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    gap: 2rem;
+}
+
